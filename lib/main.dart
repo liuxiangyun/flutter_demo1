@@ -17,9 +17,11 @@ class MyApp extends StatelessWidget {
               child: Image.network(
                 "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1700988635,275822412&fm=27&gp=0.jpg",
                 fit: BoxFit.contain,
-                color: Colors.greenAccent,
+                color: Colors.redAccent,
                 colorBlendMode: BlendMode.multiply,
                 repeat: ImageRepeat.repeat,
+                width: 20.0,
+                height: 20.0,
               ),
 //              alignment: Alignment.topCenter,   //设置alignment后Image的fit属性无效果
               width: 500.0,
