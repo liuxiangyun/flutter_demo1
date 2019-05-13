@@ -8,7 +8,8 @@ Widget getNavigation() {
   return getCommonMaterialAppWidget(
       "联系人",
       ListView.builder(
-        itemBuilder: (context, index) => ListTile(
+        itemBuilder: (context, index) =>
+            ListTile(
             title: Text(contacts[index].address),
             leading: Icon(Icons.contacts),
             subtitle: Text('${contacts[index].name}:${contacts[index].phone}')),
