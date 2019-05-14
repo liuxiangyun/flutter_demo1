@@ -10,6 +10,8 @@ import 'NavigationParam.dart';
 import 'NavigationParamBack.dart';
 import 'assets.dart';
 import 'photo_upload.dart';
+import 'expansion.dart';
+
 
 void main() => runApp(myApp());
 
@@ -23,5 +25,10 @@ Widget myApp() {
 //return getCard();
 //  return index();
 //  return assets();
-  return UploadPicWidget();
+//  return UploadPicWidget();
+//return getNavigation();
+  return ExpansionWidget();
 }
+
+
+
