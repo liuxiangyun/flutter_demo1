@@ -6,7 +6,10 @@ import 'RowColumnWidget.dart';
 import 'StackWidget.dart';
 import 'CardWidget.dart';
 import 'navigation.dart';
-
+import 'NavigationParam.dart';
+import 'NavigationParamBack.dart';
+import 'assets.dart';
+import 'photo_upload.dart';
 
 void main() => runApp(myApp());
 
@@ -18,5 +21,7 @@ Widget myApp() {
 //  return getColumnWidget();
 //return getStack();
 //return getCard();
-return getNavigation();
+//  return index();
+//  return assets();
+  return UploadPicWidget();
 }
